@@ -70,11 +70,11 @@ p{
     border: 1px solid;
 }
 #navbar_top a {
-    float: left;
-    margin-left:70px;
-    display: block;
+    position: relative;
+    float: right;
+    margin-right:30px;
+    display: inline-block;
     color: #f2f2f2;
-    text-align: center;
     padding: 15px;
     text-decoration: none;
 }
@@ -94,4 +94,21 @@ p{
 #navbar_top a:hover {
     background-color: #ddd;
     color: black;
+}
+.navbar_bottom {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar_bottom a {
+    color: #d62626;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: #333;
+    font-size: 17px;
+}
+#nav_bo{
+    text-align: center;
 }

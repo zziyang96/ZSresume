@@ -43,7 +43,8 @@
 
         <div id="about_me">
             <div id="left" style="float:left; margin-left:120px;">
-                <img class="image_left" src="./victor.jpeg" alt="佘梓阳" style="width:250px; height: 350px; padding: 10px 10px;">
+                <img id="image_left" src="./victor.jpeg" alt="佘梓阳" style="width:220px; height: 320px; padding: 10px 10px;">
+                <!-- <canvas id="myCanvas" width="250" height="350" style="border:1px solid #d3d3d3;"></canvas> -->
             </div>
 
             <div id="right" style="float:right; margin-right:200px;">
@@ -154,16 +155,35 @@
 
         <div class="evaluations">
             <h2>自我评价</h2>
+            <p>
+                有过网站设计经验。对UI/UX，Web前端开发，网络安全领域有浓厚的兴趣。
+            <p>
+                有团队精神，善于沟通，有责任心，能够快速融入团队；有热情学习和挑战新鲜事物，适应能力强，不轻易不放弃；能独立工作。
+            </p>
         </div>
 
+    </div>
+    <div id="navbar_bottom">
+        <div id="nav_bo">
+            <a href="#top_page">回到顶部</a>
+        </div>
     </div>
 </body>
 
 <script type="text/javascript">
+
     var myBtn=document.getElementsByClassName("portfolio")[0];
     myBtn.onclick=function(){
         window.location.href="https://victorsheh96.wordpress.com/?frame-nonce=ae73d0be7e";
     }
+
+    // var c=document.getElementById("myCanvas");
+    // var ctx=c.getContext("2d");
+    // var img=document.getElementsById("image_left");
+
+    // img.onload = function(){
+    //     ctx.drawImage(img,10,10);
+    // }
 </script>
     
 
