@@ -6,7 +6,6 @@ body,
     background-color: #fff;
 }
 
-
 /* h tag */
 h1 {
     position: relative;
@@ -61,7 +60,6 @@ p{
     margin-top: 10px;
     margin-bottom:10px;	
 }
-
 
 /* navigation */
 #navbar_top {
