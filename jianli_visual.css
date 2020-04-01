@@ -1,0 +1,99 @@
+html,
+body,
+#app,
+.index {
+    height: 100%!important;
+    background-color: #fff;
+}
+
+
+/* h tag */
+h1 {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 200;
+    margin-left:100px;
+}
+
+h4{
+    margin-left:150px;
+}
+
+p{
+    margin-left:150px;
+}
+
+.portfolio{
+    background-color: rgb(78, 80, 78); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*Break Lines*/
+.long_line {
+    width: 90%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#666;
+    border: 0 none;
+    margin-top: 20px;
+    margin-bottom:20px;	
+}
+
+.short_line {
+    width: 80%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(158, 157, 157);
+    border: 0 none;
+    margin-top: 10px;
+    margin-bottom:10px;	
+}
+
+
+/* navigation */
+#navbar_top {
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.5;
+    width: 100%;
+    border: 1px solid;
+}
+#navbar_top a {
+    float: left;
+    margin-left:70px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.sticky {
+    z-index: 1;
+    position: fixed;
+    top: 3px;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 90px;
+}
+#navbar_top {
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar_top a:hover {
+    background-color: #ddd;
+    color: black;
+}
