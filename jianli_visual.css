@@ -37,6 +37,10 @@ p{
     display: inline-block;
     font-size: 16px;
 }
+.portfolio:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 /*Break Lines*/
 .long_line {
@@ -72,7 +76,7 @@ p{
 #navbar_top a {
     position: relative;
     float: right;
-    margin-right:30px;
+    margin-right:20px;
     display: inline-block;
     color: #f2f2f2;
     padding: 15px;
